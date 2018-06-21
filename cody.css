@@ -1,5 +1,5 @@
 body {
-  background-color: tan;
+  background-color: yellow;
 }
 
 div {
@@ -14,4 +14,12 @@ h1 {
 p {
   text-align: center;
   color: green;
+}
+
+
+@media  and screen (max-width: 1500px){
+p {
+  font-size:80px;
+  color: blue;
+}
 }
