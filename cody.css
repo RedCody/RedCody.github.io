@@ -2,13 +2,16 @@ body {
   background-color: tan;
 }
 
+div {
+  text-align: center;
+}
+
 h1 {
   text-align: center;
   color: green;
 }
 
-p1 {
+p {
   text-align: center;
   color: green;
-
 }
