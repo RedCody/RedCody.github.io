@@ -3,19 +3,40 @@
 <head>
   <link rel="stylesheet" type="text/css" href="cody.css">
   <title>Little Red Cody Dog Therapist</title>
+  <script src="cody.js"></script>
 </head>
 <body>
   <h1>Little Cody is a therapy dog</h1>
   <div>
-   <img src="littlecody1.JPG"  alt="little red dog" width="250" height="250">
+    <img src="littlecody1.JPG"  alt="little red dog" width="250" height="250" id="pic1" >
+    <img src="littlecody2.JPG"  alt="little red dog" width="250" height="250" id="pic2" >
   </div>
 
-  <p> Little Cody is a therapy dog. He is available for counseling sessions on Wednedays and Thursdays.<br>
-He can be reached for an appointment thru his assistant nurse Charlotte Adams.<br> Payment is accepted at the time onkeypress
-of service. Cody accepts many types of insurance including dog treats. </p>
+  <p id= "red1">      Little Cody is a therapy dog. Therapy dogs vist the sick and infirmed.<br> Their outgoing persoanlity usually
+     puts patients in a better mood.  He comes from Madison Indiana, and was the last of his
+    litter when we bought him.<br> Little Cody has both charisma and people skills which are both traits needed for a
+    therapy dog. He is available for counseling sessions on Wednedays and Thursdays.<br>He can be reached for an appointment
+    thru his assistant nurse Charlotte Adams.<br> Payment is accepted at the timeof service. Cody accepts many types of
+    insurance including dog treats. </p>
 
-<button type="button">Click here for list of ailments</button>
-<button type="button">List of Insurance Cody accepts</button>
-<button type="button">Contact Information</button>
+    <h1>Please enter the requested information below. </h1>
+
+    <div id= "red2">
+      <form>
+        full name: <br>
+        <input type="text" name="fullname"><br>
+        <button onclick="fullName()"> submit </button>
+      </form><br>
+      <form>
+        What is your illness or affliction? <br>
+        <input type="text" illness="illness">
+      </form><br>
+      <form>
+        What sort of insurance do you have? <br>
+        <input type = "text" insurance="insurance"
+      </form><br>
+
+    </div>
+
 </body>
 </html>

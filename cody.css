@@ -1,25 +1,31 @@
 body {
-  background-color: yellow;
+  background-color: lightblue;
 }
 
 div {
   text-align: center;
+
 }
 
 h1 {
   text-align: center;
-  color: green;
+  color: black;
+  font-family: serif;
 }
 
-p {
+#red1 {
+  text-indent: 25px;
+  text-align: left;
+  color: black;
+}
+
+#red2 {
   text-align: center;
-  color: green;
 }
+/* This is the media query section */
 
+@media  (max-width: 960px) {
+  p { font-size: 30px;
 
-@media  and screen (max-width: 1500px){
-p {
-  font-size:80px;
-  color: blue;
-}
+  }
 }
