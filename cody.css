@@ -54,3 +54,9 @@ h1 {
 
   }
 }
+
+@media (max-width: 960px) {
+#pic3 { display: none;
+
+}
+}
